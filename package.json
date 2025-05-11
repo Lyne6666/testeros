@@ -1,0 +1,21 @@
+{
+  "name": "blocked",
+  "version": "1.3.0",
+  "repository": "visionmedia/node-blocked",
+  "description": "check if the event loop is blocked",
+  "keywords": ["block", "event", "loop", "performance"],
+  "dependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "istanbul": "0.4.1"
+  },
+  "engines": {
+    "node": ">= 0.9.1"
+  },
+  "license": "MIT"
+}
