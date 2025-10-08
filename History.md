@@ -1,20 +1,20 @@
-1.3.0 / 2019-10-25
-==================
-* Add interval to options
+## Release History
 
-1.2.0 / 2016-02-12
-==================
-* Return a reference to the timer
-* Add options to the constructor to be able to parameterize the threshold
-* Tests and coverage
-* Removed make file and replaced with NPM scripts
+### v1.3.0 / 2019-10-25
+#### Breaking Changes
+* Added interval to options for more flexible timing
 
-1.1.0 / 2015-01-12
-==================
+### v1.2.0 / 2016-02-12
+#### Enhancements
+* Returned a reference to the timer for easier management
+* Added options to the constructor for customizable threshold
+* Improved tests and coverage for better reliability
+* Migrated from Makefile to NPM scripts for streamlined development
 
-* unref interval
+### v1.1.0 / 2015-01-12
+#### Bug Fixes
+* Unref interval to prevent memory leaks
 
-1.0.0 / 2014-06-10
-==================
-
-* round ms
+### v1.0.0 / 2014-06-10
+#### Initial Release
+* Rounded milliseconds for precise timing
